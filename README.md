@@ -5,4 +5,4 @@
 2. Switch to the dev branch with [git checkout dev] and [git pull]
 3. Make changes
 4. Push them up!
-* (switch branches with [git checkout <branch>] and [git pull])
+* (switch branches with [git checkout (branch)] and [git pull])
