@@ -16,5 +16,7 @@
 ##Server
 ---------
 
-1. Has a model of (users,messages)
-
+1. Has a model of ((list of (users, their respective worlds)),(list of unsent messages))
+2. On update will broadcast model to every single user, then clears messages
+3. On a client's first connect, the server appends the (user, their world) to the first part of the model
+4. On receiving of messages it will append to a current message list 
